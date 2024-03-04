@@ -20,3 +20,9 @@ def post_new_client_kit(kit_body):
                          json=kit_body,
                          headers=data.headers)
 
+
+# Función para actualizar el token
+def update_token(auth_token):
+    headers = data.headers.copy()
+    headers["Authorization"] = f"Bearer {auth_token}"
+    return headers

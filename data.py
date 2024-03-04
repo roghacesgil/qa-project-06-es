@@ -1,6 +1,6 @@
 headers = {
-    "Content-Type":  "application/json",
-    "Authorization": "Bearer jknnFApafP4awfAIFfafam2fma"
+    "Content-Type": "application/json",
+    "Authorization": ""
 }
 
 user_body = {
@@ -11,4 +11,54 @@ user_body = {
 
 kit_body = {
     "name": "Mi conjunto"
+}
+
+one_letter = {
+    "name": "a"
+}
+
+character_limit = {
+    "name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+            "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc"
+            "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+            "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+            "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc"
+            "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+            "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabC"
+}
+
+zero_character = {
+    "name": ""
+}
+
+character_over_limit = {
+    "name": "Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+            "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc"
+            "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+            "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab"
+            "cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc"
+            "dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
+            "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda"
+            "bcdabcdabcdabcdabcdabcdabcdabcdabcD"
+}
+
+special_characters = {
+    "name": "№%@"
+}
+
+spaces_in_name = {
+    "name": " A Aaa"
+}
+
+numbers_in_name = {
+    "name": "123"
+}
+
+numbers_instead_of_string = {
+    "name": 123
 }
