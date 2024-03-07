@@ -62,3 +62,10 @@ numbers_in_name = {
 numbers_instead_of_string = {
     "name": 123
 }
+
+
+# Función para actualizar el token
+def update_token(token):
+    headers_token = headers.copy()
+    headers_token["Authorization"] = f"Bearer {token}"
+    return headers_token
