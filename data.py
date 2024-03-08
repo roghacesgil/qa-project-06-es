@@ -9,9 +9,7 @@ user_body = {
     "address": "123 Elm Street, Hilltop"
 }
 
-kit_body = {
-    "name": "Mi conjunto"
-}
+kit_body = {}
 
 one_letter = {
     "name": "a"

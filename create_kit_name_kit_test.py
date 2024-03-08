@@ -63,7 +63,6 @@ def test_create_kit_numbers_in_name_get_success_response():
 
 def test_create_kit_no_name_get_error_response():
     current_body_kit = data.kit_body.copy()
-    current_body_kit.pop("name")
     negative_assert_no_name(current_body_kit)
 
 
